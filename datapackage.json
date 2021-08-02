@@ -1,0 +1,25 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default",
+            "title": "Country"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "format": "default",
+            "title": "Year"
+          }
+        ]
+      }
+    }
+  ]
+}
