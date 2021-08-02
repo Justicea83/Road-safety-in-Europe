@@ -46,4 +46,4 @@ df = df.sort_values(['Road deaths per Million Inhabitants'], ascending=True)
 
 df.insert(1, "Year", '2018')
 
-df.to_csv('data.csv', index=False)
+df.to_csv('data/data.csv', index=False)
